@@ -8,12 +8,12 @@
    
 }
 .tagchiziq{
-    width: 1000px;
+    width: 1440px;
     height: 2px;
     background-color: violet;
 }
 .body-1{
-    width: 1000px;
+    width: 1440px;
     height: 800px;
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@
 
 /* 2-ish */
 .body-2{
-    width: 1000px;
+    width: 1440px;
     height: 900px;
     margin: 0;
     background-color: #332720;
@@ -106,7 +106,7 @@
 /* 3-ish */
 
 .body-3{
-    width: 1000px;
+    width: 1440px;
     height: 900px;
     display: flex;
     align-items: center;
@@ -153,9 +153,9 @@ label:active::after{
     width: 260px;
 }
 .background-color{
-    width: 1000px;
+    width: 1440px;
     height: 900px;
-    background: #fff;
+    background: orange;
     position: absolute;
     transition: 0.3s;
     z-index: -1;
@@ -166,7 +166,7 @@ input:checked + label + .background-color{
 
 /* 4-ish */
 .body-4{
-    width: 1000px;
+    width: 1440px;
     height: 900px;
     display: flex;
     align-items: center;
@@ -179,19 +179,23 @@ input:checked + label + .background-color{
     height: 400px;
     border-radius: 20px;
     position: relative;
-    background-color: #343434;
+    background: url("https://picsum.photos/id/237/300/200") no-repeat
+    #343434;
 }
-.card img{
+.card{
     border-radius: 20px 20px 0 0;
+   
 }
 .card__osti{
     padding: 10px 10px;
+    margin-top: 200px;
 }
 .card h1{
     margin-bottom: 15px;
 }
-.card::after{
+.rangli::after{
     content: "";
+    
     background:linear-gradient(45deg,
     #ff0000 0%,
     #ff9a00 10%,
